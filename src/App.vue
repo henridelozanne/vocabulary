@@ -204,16 +204,17 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  height: 100%;
+  color: #212f3e;
+  height: 100vh;
 }
 
 html {
   height: 100vh;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
 body {
-  height: 100%;
+  height: 100vh;
   margin: 60px 0 0;
 }
 
@@ -262,7 +263,6 @@ ul {
 
   span {
     font-family: Avenir, Helvetica, Arial, sans-serif;
-    background: white;
     font-size: 20px;
     cursor: pointer;
   }
@@ -300,8 +300,10 @@ ul {
     border-top: none;
     border-left: none;
     border-right: none;
+    border-bottom-color: #212f3e;
     font-family: Avenir, Helvetica, Arial, sans-serif;
     color: #2c3e50;
+    background: transparent;
     height: 40px;
 
     &:focus {
