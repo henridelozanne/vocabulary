@@ -49,6 +49,7 @@
 
 <script>
 import spaceWords from './assets/spaceWords.js';
+import humanBodyWords from './assets/humanBodyWords.js';
 
 export default {
   name: 'App',
@@ -172,20 +173,7 @@ export default {
       vocLists: [
         {
           listName: 'Corps humain',
-          words: [
-            {
-              fr: 'jambe',
-              es: 'pierna',
-            },
-            {
-              fr: 'bras',
-              es: 'brazo',
-            },
-            {
-              fr: 'pied',
-              es: 'pie',
-            },
-          ],
+          words: humanBodyWords,
         },
         {
           listName: 'Espace',
